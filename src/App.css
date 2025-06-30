@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
